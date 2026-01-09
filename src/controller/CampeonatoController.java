@@ -34,13 +34,13 @@ public class CampeonatoController {
     public void ejecutarCampeonato(ArrayList<Carrera> carreras) {
         for (Carrera carrera : carreras) {
 
-            System.out.println("===CARRERA " + carrera.getNumeroCarrera() + " ===");
+            System.out.println("\n===CARRERA " + carrera.getNumeroCarrera() + " ===");
             carreraController.simularCarrera(carrera);
 
-            System.out.println("=== CLASIFICACIÓN PROVISIONAL ===");
+            System.out.println("\n=== CLASIFICACIÓN PROVISIONAL ===");
             mostrarClasificacion();
         }
-        System.out.println("=== CLASIFICACIÓN FINAL ===");
+        System.out.println("\n=== CLASIFICACIÓN FINAL ===");
         mostrarClasificacion();
     }
 }
