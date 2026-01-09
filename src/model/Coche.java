@@ -21,19 +21,16 @@ public class Coche {
     }
 
     // Creamos los métodos del coche
-
     public void sumarKm(double km) {
         kmRecorridos += km;
     }
 
     public void resetearKm(){
         kmRecorridos=0;
-
     }
 
     public void  sumarPuntos(int puntos){
         this.puntos+= puntos;
-
     }
 }
 
